@@ -1,0 +1,36 @@
+/* Write your CSS here. */
+body{
+    background-color: burlywood;
+}
+.wgs {
+    display: inline-block;
+    height: 482px;
+    width: 640px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wgs__dirt-pile {
+    height: 220px;
+    width: 640px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.wgs__mole-head {
+    width: 376px;
+    position: absolute;
+    left: 109px;
+    top: 0;
+    transition: margin-top 0.25s;
+}
+
+.wgs__mole-head--hidden {
+    margin-top: 482px;
+}
+.pf{
+    display: grid;
+    grid-template-columns: 640px 640px 640px 640px;
+    grid-template-rows: 482px 482px;
+}
